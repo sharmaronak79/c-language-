@@ -33,10 +33,8 @@ if(x[i]==n)
 	{printf("element found ");}
 else
 	{printf("element not found");}
-
-return 0;
 }
-
+return 0;
 }
 
 
