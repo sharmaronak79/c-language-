@@ -39,7 +39,7 @@ FILE *fi=fopen("friends.txt","r");
         // Closing the file using fclose() 
         fclose(fi) ; 
           
-        printf("Data successfully read from file friends.txt\n"); 
+        printf("\nData successfully read from file friends.txt\n"); 
         printf("The file is now closed.") ; 
     } 
 
