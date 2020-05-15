@@ -8,6 +8,6 @@ int main() {
       b--;
    }
  
-   printf("Sum of a and b is : %d", a);
+   printf("Sum of a  and b is : %d", a);
    return 0;
 }
