@@ -11,6 +11,6 @@ int main()
 	   sum=sum+rem;
 	   n=n/10;
   }
-  printf("Sum of digits : %d",sum);
+  printf("Sum  of digits : %d",sum);
   return 0;
 }
