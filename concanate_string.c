@@ -8,7 +8,7 @@
  ============================================================================
  */
 
-#include <stdio.h>
+#include <stdio.h>SE
 #include <stdlib.h>
 #include<string.h>
 
@@ -18,7 +18,7 @@ int main() {
 	char s1[100],s2[100];
 	printf("\nenter the first string : ");
 	scanf("%s",s1);
-	printf("\nenter the second string : ");
+	printf("\nenter the cond string : ");
 	scanf("%s",s2);
 	l1= strlen(s1);
 	l2=strlen(s2);
