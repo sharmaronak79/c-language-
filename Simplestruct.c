@@ -23,7 +23,7 @@ int main()
 	record.mark = 100;
  
 	// Print Strcutre Memebrs Values
-	printf("Student Id   : %d \n", record.id);
+	printf("Student_Id   : %d \n", record.id);
 	printf("Student Name : %s \n", record.name);
 	printf("Student Mark : %d \n", record.mark);
 	
