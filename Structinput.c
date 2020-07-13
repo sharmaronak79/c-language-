@@ -10,7 +10,7 @@ long phone_no;
 int main()
 {
 struct Employee e;
-printf("Enter name : ");
+printf("Enter Name : ");
 scanf("%s", &e.name);
 printf("Enter emp_id: ");
 scanf("%d", &e.emp_id);
