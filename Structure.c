@@ -12,7 +12,7 @@ int  main()
   int i , j , n ;
 
   
-  printf("Enter the number of employees: ") ;
+  printf("Enter the Number of employees: ") ;
   scanf("%d" , &n)  ;
 
   printf("Enter employee name , id and salary of all employees: \n") ;
