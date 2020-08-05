@@ -7,42 +7,7 @@
 
 int stack[capacity];
 int top= -1;
-/*c
 
-void push(int element){
-if(isfull()){
- printf("stack is full");
-}
-else{
-    top++;
-    stack[top]=element;
-    printf("%d element is inserted",element);
-}
-
-}
-
-void isempty(){
-    if(top==-1){
-        return 1;
-    }
-    else{
-        return 0;
-    }
-
-}
-
-int pop(){
-    int element;
-if(isempty()){
-    printf("stack is empty");
-}
-else{
- element= stack[top];  
- top--;
-
-}
-return top;
-}*/
 void push(int ele);
 int pop(void);
 int peek(void);
