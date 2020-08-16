@@ -14,7 +14,7 @@ int len;
 struct node* root = NULL;
 
 void append(void);
-void addatbegin(void);
+void addatbegin(void) ;
 void addatafter(void);
 int length(void);
 void display(void);
