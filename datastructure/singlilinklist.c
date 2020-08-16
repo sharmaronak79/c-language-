@@ -97,7 +97,7 @@ void display(){
     struct node * temp;
     temp =root;
     if(temp==NULL){
-        printf("List is empty\n\n");
+        printf("List is Empty\n\n");
     }
     else{
         while(temp!=NULL){
