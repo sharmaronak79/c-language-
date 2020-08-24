@@ -6,7 +6,7 @@ int main()
  int j,k,s=0;
  int x[5]={5,2,4,3,9};
 
-   printf("\n Array 1 elements are:");
+   printf("\n Array 1 Elements are:");
    for (k = 0; k<5; k++) {
                printf("%d ",x[k]);
                s=s+x[j];
