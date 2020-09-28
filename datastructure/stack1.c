@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-#define capacity 5  // it is a macro , capacity is name(identity) and 5 is value no ; 
+#define capacity 5  // , it is a macro , capacity is name(identity) and 5 is value no ; 
 //as well in macro
 
 int stack[capacity];
