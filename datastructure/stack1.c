@@ -16,7 +16,7 @@ int main(){
     int ch, item;
 while(1){
     printf("1.Push\n");
-printf("2.Pop\n");
+printf("2.Pop \n");
 printf("3.Peek\n");
 printf("4.Traverse\n");
 printf("5.Quit\n");
