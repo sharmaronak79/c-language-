@@ -3,7 +3,7 @@
 int main()
 {
   int i=2,n;
-  printf("Enter_n : ");
+  printf("Enter_n  : ");
   scanf("%d",&n);
   while(i<=n)
   {
