@@ -26,7 +26,7 @@ int main(){
 int ch;
 
 while(1){
-printf("Single linked list operation: \n ");
+printf("Single linked List operation: \n ");
 printf("1. Append\n");
 printf("2. Adatbegin\n");
 printf("3.Addatafter\n");
