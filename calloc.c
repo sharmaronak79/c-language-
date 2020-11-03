@@ -11,7 +11,7 @@ int main()
   
     // Get the number of elements for the array 
     n = 5; 
-    printf("Enter number of elements: %d\n", n); 
+    printf("Enter a number of elements: %d\n", n); 
   
     // Dynamically allocate memory using calloc() 
     ptr = (int*)calloc(n, sizeof(int)); 
