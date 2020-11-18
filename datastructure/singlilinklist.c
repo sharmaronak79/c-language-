@@ -35,7 +35,7 @@ printf("5.Display\n");
 printf("6.Delet\n");
 printf("7.Quit \n");
 
-printf("Enter your choice : \n");
+printf("Enter Your choice : \n");
 scanf("%d",&ch);
 
 switch(ch)
