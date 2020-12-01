@@ -7,7 +7,7 @@ int main()
   
    printf(" Input the Number  1: ");
    scanf("%d", &no1);
-   printf(" Input the number 2: ");
+   printf(" Input the Number 2: ");
    scanf("%d", &no2);   
  
    pt1 = &no1;
