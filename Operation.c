@@ -14,7 +14,7 @@ int main()
 	
 	switch(op)
 	{
-	case '+' : printf("Result : %d ",a+b);break;
+	case '+' : printf("Result: %d ",a+b);break;
 	case '-' : printf("Result : %d ",a-b);break;
 	case '*' : printf("Result : %d ",a*b);break;
 	case '/' : printf("Result : %d ",a/b);break;
