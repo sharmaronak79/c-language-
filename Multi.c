@@ -3,7 +3,7 @@
 int main()
 {
 	int num; 	/*to store number*/
-	int i;	/*loop counter*/
+	int i;	/* Loop counter*/
 	
 	/*Reading the number*/
 	printf("Enter an_⁶integer number: ");
