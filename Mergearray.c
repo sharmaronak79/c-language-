@@ -12,7 +12,7 @@ int main()
  
    }
    
-   printf("\n Array 2 elements are:");
+   printf("\n Array 2 Elements are:");
    for (i = 0; i<5; i++) {
                printf("%d ",y[i]);
  
