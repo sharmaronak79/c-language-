@@ -8,7 +8,7 @@ int main()
  int z[10];
    printf("\n Array 1 elements are:");
    for (i = 0; i<5; i++) {
-               printf("%d ",x[i]);
+               printf(" %d ",x[i]);
  
    }
    
