@@ -6,7 +6,7 @@ int main()
  int x[5]={1,2,3,4,5};
  int y[5]={6,7,18,9,10};
  int z[10];
-   printf("\n Array 1 elements are:");
+   printf("\n Array  1 elements are:");
    for (i = 0; i<5; i++) {
                printf(" %d ",x[i]);
  
