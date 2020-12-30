@@ -3,7 +3,7 @@
 int main()
 {
  int i,h=0,k=0;
- int x[5]={1,2,3,4,5};
+ int x[5]={1,2,3,6,5};
  int y[5]={6,7,18,9,10};
  int z[10];
    printf("\n Array  1 elements are:");
