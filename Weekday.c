@@ -4,7 +4,7 @@ int main()
 {
 int wDay;
 
-printf("Enter weekday any number from 0 to 6 only: ");
+printf(" Enter weekday any number from 0 to 6 only: ");
 scanf("%d",&wDay);
 
 switch(wDay)
