@@ -10,7 +10,7 @@ scanf("%d",&wDay);
 switch(wDay)
 {
 case 0: 
-	printf("Sunday");
+	printf("Sunday ");
 	break;
 case 1: 
 	printf("Monday");
