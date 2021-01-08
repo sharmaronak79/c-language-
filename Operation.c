@@ -17,6 +17,6 @@ int main()
 	case '+' : printf("Result : %d ",a+b);break;
 	case '-' : printf("Result : %d ",a-b);break;
 	case '*' : printf("Result : %d ",a*b);break;
-	case '/' : printf("Result : %d ",a/b);break;
+	case '/' : printf("Result: %d ",a/b);break;
 	default  : printf("Invalid operator ");
 	}
