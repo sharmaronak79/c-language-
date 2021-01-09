@@ -5,7 +5,7 @@ int main() {
    j = &a;
    k = &j;
    
-   printf("\nAddress of  a = %u", &a);
+   printf("\nAddress  of  a = %u", &a);
    printf("\nAddress of a = %u", j);
    printf("\nAddress of a = %u", *k);
    printf("\nAddress of j = %u", &j);
