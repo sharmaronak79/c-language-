@@ -22,7 +22,7 @@ int main()
 	strcpy(record.name, "C leraner");    
 	record.mark = 100;
  
-	// Print Strcutre Memebrs  Values
+	// Print Strcutre Memebrs Values
 	printf("Student_Id   : %d \n", record.id);
 	printf("Student Name : %s \n", record.name);
 	printf("Student Mark : %d \n", record.mark);
