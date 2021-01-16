@@ -17,9 +17,9 @@ scanf("%d", &e.emp_id);
 printf("Enter Phone Number: ");
 scanf("%ld", &e.phone_no);
 
-printf("\nEnter Name : %s", e.name);
-printf("\nEnter Emp Id     : %d", e.emp_id);
-printf("\nEnter Phone Number : %ld ", e.phone_no);
+printf("\nName : %s", e.name);
+printf("\nEmp Id     : %d", e.emp_id);
+printf("\nPhone Number : %ld ", e.phone_no);
 
 return 0;
 }
