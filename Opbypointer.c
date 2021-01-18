@@ -15,7 +15,7 @@ int main()
  
    sum = *pt1 + *pt2;
  
-   printf(" The Sum of the entered nmbers is : %d\n\n",sum);
+   printf(" The Sum of the Entered nmbers is : %d\n\n",sum);
  
    getch();
 }
