@@ -9,7 +9,7 @@ int main()
   {
 	   printf("%d\n",i);
 	   i=i+2; 
-	   //increment i by 2
+	   // increment i by 2
   }
   return 0;
 }
