@@ -62,7 +62,7 @@ Output:
   [narendra@ubuntu]$
 Let us compile same code with optimization option (i.e. -O option). In thr below code, “local” is declared as const (and non-volatile), GCC compiler does optimization and ignores the instructions which try to change value of const object. Hence value of const object remains same.
 
-/* Compile code with optimization option */
+/*  Compile code with optimization option */
 #include <stdio.h> 
 
   
