@@ -6,5 +6,5 @@ void main()
     int x=1,y;
     y=x++ + ++x;
     printf("%c",sport[++y]);
-    printf("\nx: %d",x);
+    printf(" \nx: %d",x);
 }
