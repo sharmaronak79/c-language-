@@ -6,7 +6,7 @@ int main()
 	int i;	/* Loop counter*/
 	
 	/*Reading the number*/
-	printf("Enter an_⁶integer number: ");
+	printf("Enter An_⁶integer number: ");
 	scanf("%d",&num);
 	
 	/*Initialising loop counter*/
