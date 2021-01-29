@@ -8,7 +8,7 @@ int i,N,sum;
 printf("Enter the value of N : ");
 scanf("%d",&N);
  
-/*set sum by 0*/
+/*set sum by 0 */
 sum=0;
  
 /*calculate sum of the series*/
