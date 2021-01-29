@@ -5,7 +5,7 @@ int main()
 int i,N,sum;
  
 /*read value of N*/
-printf("Enter the value of N: ");
+printf("Enter the value of N : ");
 scanf("%d",&N);
  
 /*set sum by 0*/
