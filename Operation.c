@@ -5,7 +5,7 @@ int main()
 	int n,rem,a,b;
 	char op;
     
-    printf("Enter Operator(+,-,*,/)");
+    printf("Enter  Operator(+,-,*,/)");
 	scanf("%c",&op);
     printf("Enter first numbers :");
 	scanf("%d",&a);
