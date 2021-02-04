@@ -23,7 +23,7 @@ Let us see an example  to understand how compilers interpret volatile keyword. C
 int main(void) 
 { 
 
-    const int local = 10; 
+    const int local = 110; 
 
     int *ptr = (int*) &local; 
 
