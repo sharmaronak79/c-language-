@@ -13,7 +13,7 @@ If we do not use volatile qualifier, the following problems may arise
 1) Code may not work as expected when optimization is turned on.
 2) Code may not work as expected when interrupts are enabled and used.
 
-Let us see an example to understand how compilers interpret volatile keyword. Consider below code, we are changing value of const object using pointer and we are compiling code without optimization option. Hence compiler won’t do any optimization and will change value of const object.
+Let us see an example  to understand how compilers interpret volatile keyword. Consider below code, we are changing value of const object using pointer and we are compiling code without optimization option. Hence compiler won’t do any optimization and will change value of const object.
 
 
 
