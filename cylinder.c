@@ -24,7 +24,7 @@ int main() {
 
     cFileOut = fopen("sorted_cylinders.txt", "w");
     if (cFileOut == NULL) {
-        printf("Error opening file \n");
+        printf("Error opening  file \n");
         return 1;
     }
 
