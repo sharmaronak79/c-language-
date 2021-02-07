@@ -28,7 +28,7 @@ int main() {
         return 1;
     }
 
-    fprintf(cFileOut, "#    Radius           Height          Volume          Weight\n");
+    fprintf(cFileOut, "#    Radius            Height          Volume          Weight\n");
 
     int i, counter = 0;
     for (i = 0; i < 6; i++) {   
