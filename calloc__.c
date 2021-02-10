@@ -22,7 +22,7 @@ int main(void) {
 	ptr= (int *) calloc(n,sizeof(int));
 
 	if(ptr==NULL){
-		printf("No Memory");
+		printf("No Memory ");
 	}
 	else{
 		printf("array elements are: \n");
