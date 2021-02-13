@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<string.h>
  
-// Define Strcutre 
+// Define Strcutre  ,,
 struct student 
 {
            int id;
