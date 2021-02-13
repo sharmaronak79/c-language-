@@ -12,7 +12,7 @@ struct student
  
 int main() 
 {
-	// Declare Strcutre  Variable
+	// Declare Strcutre   Variable
 	struct student record;
  
 	// Assign Values for Strcutre Memebrs : id,name and mark
