@@ -18,7 +18,7 @@ switch(rem)
   case 4 : printf("Four ");break;
   case 5 : printf("Five ");break;
   case 6 : printf("Six ");break;
-		  case 7 : printf("Seven ");break;
+  case 7 : printf("Seven ");break;
   case 8 : printf("Eigth ");break;
   case 9 : printf("Nine ");break;
 }
