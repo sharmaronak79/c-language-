@@ -2,3 +2,15 @@ C's volatile keyword is a qualifier that is applied to a variable when it is dec
 may change at any time--without any action being taken by the code the compiler finds nearby. 
 The implications of this are quite serious. However, before we examine them, let's take a look at the syntax.
 
+Syntax of C's volatile Keyword
+To declare a variable volatile, include the keyword volatile before or after the data type in the variable definition.
+For instance both of these declarations will declare an unsigned 16-bit integer variable to be a volatile integer:
+
+volatile uint16_t x; 
+uint16_t volatile y;
+
+Now, it turns out that pointers to volatile variables are very common, especially with memory-mapped I/O registers. 
+Both of these declarations declare p_reg to be a pointer to a volatile unsigned 8-bit integer:
+
+volatile uint8_t * p_reg; 
+uint8_t volatile * p_reg;
