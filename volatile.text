@@ -1,0 +1,4 @@
+C's volatile keyword is a qualifier that is applied to a variable when it is declared. It tells the compiler that the value of the variable
+may change at any time--without any action being taken by the code the compiler finds nearby. 
+The implications of this are quite serious. However, before we examine them, let's take a look at the syntax.
+
