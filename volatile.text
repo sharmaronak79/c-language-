@@ -14,3 +14,16 @@ Both of these declarations declare p_reg to be a pointer to a volatile unsigned 
 
 volatile uint8_t * p_reg; 
 uint8_t volatile * p_reg;
+
+Volatile pointers to non-volatile data are very rare (I think I've used them once), but I'd better go ahead and give you the syntax:
+
+uint16_t * volatile p_x;
+And just for completeness, if you really must have a volatile pointer to a volatile variable, you'd write:
+
+uint16_t volatile * volatile p_y;
+Incidentally, for a great explanation of why you have a choice of where to place volatile and why you should place it after
+the data type (for example, int volatile * foo), 
+read Dan Sak's column "Top-Level cv-Qualifiers in Function Parameters" (Embedded Systems Programming, February 2000, p. 63).
+
+Finally, if you apply volatile to a struct or union, the entire contents of the struct or union are volatile.
+If you don't want this behavior, you can apply the volatile qualifier to the individual members of the struct or union.
