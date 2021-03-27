@@ -3,6 +3,7 @@
 #include<conio.h>
 int main()
 {
+ 
  int j,k,s=0;
  int x[5]={5,2,4,3,9};
 
