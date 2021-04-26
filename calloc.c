@@ -30,6 +30,7 @@ int main()
         printf("Memory successfully allocated using calloc.\n"); 
   
         // Get the elements of the array 
+
         for (i = 0; i < n; ++i) { 
             ptr[i] = i + 1; 
         } 
