@@ -1,3 +1,23 @@
 “extern” keyword is used to extend the visibility of function or variable. By default the functions are visible throughout the program,                 
 there is no need to declare or define extern functions. 
 It just increase the redundancy. Variables with “extern” keyword are only declared not defined.
+
+External variables are also known as global variables. These variables are defined outside the function. These variables are available globally throughout the function execution. The value of global variables can be modified by the functions. “extern” keyword is used to declare and define the external variables.
+
+Scope − They are not bound by any function. They are everywhere in the program i.e. global.
+
+Default value − Default initialized value of global variables are Zero.
+
+Lifetime − Till the end of the execution of the program.
+
+Here are some important points about extern keyword in C language,
+
+External variables can be declared number of times but defined only once.
+
+“extern” keyword is used to extend the visibility of function or variable.
+
+By default the functions are visible throughout the program, there is no need to declare or define extern functions. It just increase the redundancy.
+
+Variables with “extern” keyword are only declared not defined.
+
+Initialization of extern variable is considered as the definition of the extern variable.
