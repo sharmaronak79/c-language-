@@ -22,6 +22,10 @@ Variables with “extern” keyword are only declared not defined.
 
 Initialization of extern variable is considered as the definition of the extern variable.
 
+In short: GLOBAL variables are declared in one file. But they can be accessed in another file only with the EXTERN word before (in this another file).
+In the same file, no need of EXTERN .
+Global variable, by definition, can also be accessed by all the other files.
+
 
 Example:
 
