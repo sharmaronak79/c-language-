@@ -1,0 +1,3 @@
+“extern” keyword is used to extend the visibility of function or variable. By default the functions are visible throughout the program,                 
+there is no need to declare or define extern functions. 
+It just increase the redundancy. Variables with “extern” keyword are only declared not defined.
