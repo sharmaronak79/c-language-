@@ -1,0 +1,16 @@
+Before learning above functions, let's understand the difference between static memory allocation and dynamic memory allocation.
+
+static memory allocation	                             dynamic memory allocation
+memory is allocated at compile time.	                memory is allocated at run time.
+memory can't be increased while executing program.  	memory can be increased while executing program.
+used in array.	                                      used in linked list.
+
+
+Now let's have a quick look at the methods used for dynamic memory allocation.
+
+
+
+malloc()	allocates single block of requested memory.
+calloc()	allocates multiple block of requested memory.
+realloc()	reallocates the memory occupied by malloc() or calloc() functions.
+free()	frees the dynamically allocated memory.
