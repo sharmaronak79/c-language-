@@ -1,0 +1,31 @@
+NULL pointer in C
+Difficulty Level : Hard
+Last Updated : 14 Aug, 2019
+At the very high level, we can think of NULL as a null pointer which is used in C for various purposes. 
+Some of the most common use cases for NULL are
+a) To initialize a pointer variable when that pointer variable isn’t assigned any valid memory address yet.
+b) To check for a null pointer before accessing any pointer variable. By doing so, we can perform error handling in pointer related code 
+e.g. dereference pointer variable only if it’s not NULL.
+c) To pass a null pointer to a function argument when we don’t want to pass any valid memory address.
+
+The example of a is
+
+int * pInt = NULL;
+The example of b is
+
+if(pInt != NULL) /*We could use if(pInt) as well*/
+{ /*Some code*/}
+else
+{ /*Some code*/}
+The example of c is
+
+int fun(int *ptr)
+{
+ /*Fun specific stuff is done with ptr here*/
+ return 10;
+}
+fun(NULL);
+It should be noted that NULL pointer is different from an uninitialized and dangling pointer. In a specific program context,
+all uninitialized or dangling or NULL pointers are invalid but NULL is a specific invalid pointer which is mentioned in C standard and has specific purposes. 
+What we mean is that uninitialized and dangling pointers are invalid but they can point to some memory address that may be accessible 
+through the memory access is unintended.
