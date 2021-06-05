@@ -25,3 +25,8 @@ memory equivalent to the upper limit on the size has to be allocated (even if no
 whereas linked lists can increase their sizes step-by-step proportionately to the amount of data.
 Execution time: Any element in an array can be directly accessed with its index;
 however in case of a linked list, all the previous elements must be traversed to reach any element. Also, better cache locality in arrays (due to contiguous memory allocation) can significantly improve performance. As a result, some operations (such as modifying a certain element) are faster in arrays, while some other (such as inserting/deleting an element in the data) are faster in linked lists.
+
+Following are the points in favour of Linked Lists. 
+(1) The size of the arrays is fixed: So we must know the upper limit on the number of elements in advance.
+Also, generally, the allocated memory is equal to the upper limit irrespective of the usage, and in practical uses, 
+the upper limit is rarely reached. 
