@@ -27,7 +27,7 @@ int main()
               i++;
               }
               
-               printf("\n Merged elements are :");
+               printf("\n Merged  elements are :");
    for (i = 0; i<10; i++) {
                printf("%d",z[i]);
  
