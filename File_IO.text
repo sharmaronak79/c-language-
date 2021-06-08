@@ -19,7 +19,7 @@ Opens an existing text file for reading purpose.
 2	
 w
 
-Opens a text file for writing. If it does not exist, then a new file is created. Here your program will start writing content from the beginning of the file.
+Opens a text file for writing.If it does not exist, then a new file is created. Here your program will start writing content from the beginning of the file.
 
 3	
 a
