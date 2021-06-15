@@ -1,3 +1,7 @@
 Constant can't be modified 
 
 Variable can be modified and accesses
+
+Int a;
+a++ or ++a is valid 
+But, ++2 or 2++ is not valid , it will give complie time error
