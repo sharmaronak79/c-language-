@@ -1,3 +1,7 @@
 Left shift <<
 
 Rightshift >>
+
+Operand1 << operand2 // means A << 2 OR 5 << 2 it says that binary of 5 will be left shifted 2 time
+ 
+It is the same thing for roght shift
