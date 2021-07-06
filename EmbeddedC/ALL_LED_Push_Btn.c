@@ -43,12 +43,13 @@ int main(void)
 	*pClkctrlReg |= (1<<0);//for GPIOA
 
 
-	//Configure PD12 pin as output
-	*pPortDModeReg &= ~(3<<24);
-	*pPortDModeReg &= ~(3<<26);
-	*pPortDModeReg &= ~(3<<28);
-	*pPortDModeReg &= ~(3<<30);
-	//make 24th bit position as 1 (SET)
+	//Configure PD12 ,PD13, PD14, PD15 pin as output
+	//*pPortDModeReg &= ~(3<<24);
+	//*pPortDModeReg &= ~(3<<26);
+	//*pPortDModeReg &= ~(3<<28);
+	//*pPortDModeReg &= ~(3<<30);
+	*pPortDModeReg &= ~(0x55<<24);// we can use instead of above four lines
+	//make 24th,26th,28th,30th bit position as 1 (SET)
 		*pPortDModeReg |= ( 1 << 24);
 		*pPortDModeReg |= ( 1 << 26);
 		*pPortDModeReg |= ( 1 << 28);
@@ -64,10 +65,10 @@ int main(void)
 
 		if(pinStatus){
 			//turn On the LED
-			*pPortDOutReg |= (0xF<<12); // tomake all LED or PIN 12,13,14,15 HIGH
+			*pPortDOutReg |= (0xF<<12); // to make all LED or PIN 12,13,14,15 HIGH
 		}else{
 			//turn OFF the LED
-			*pPortDOutReg &= ~(0xF<<12);
+			*pPortDOutReg &= ~(0xF<<12); // to make all LED or PIN 12,13,14,15 LOW
 		}
 	}
 
