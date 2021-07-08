@@ -6,7 +6,7 @@
 int main() 
 { 
 
-    int i = 0; 
+    int i = 0; //
 begin: 
 
     i = i + 1; 
