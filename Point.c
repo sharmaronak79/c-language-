@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<conio.h>
 int main() {
-   int a = 10, *j, **k;
+   int a = 10, *j, **k;// pointer to pointer
    j = &a;
    k = &j;
    
