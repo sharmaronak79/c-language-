@@ -18,4 +18,6 @@ int main() {
    printf("\nValue of a   = %d", *j);
    printf("\nValue of a   = %d", **k);
    getch();
+
+   return 0;
 }
