@@ -1,0 +1,10 @@
+String Lateral and string conadtant are equal
+
+and 
+
+string variable is different
+
+
+char *pmsg; is a string lateral and a sting comnstant
+
+where as char msg[]; is a string variable
