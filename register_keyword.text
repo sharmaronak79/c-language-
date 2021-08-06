@@ -1,0 +1,16 @@
+Register variable
+Scope: Local to the function in which it is declared.
+
+Default initial value: Any random value i.e garbage value
+
+Lifetime: Till the end of function/method block, in which the variable is defined.
+
+Register variables inform the compiler to store the variable in CPU register instead of memory. Register variables have faster accessibility than a normal variable. Generally, the frequently used variables are kept in registers. But only a few variables can be placed inside registers. One application of register storage class can be in using loops, where the variable gets used a number of times in the program, in a very short span of time.
+
+NOTE: We can never get the address of such variables.
+
+Syntax :
+
+register int number;
+Note: Even though we have declared the storage class of our variable number as register, we cannot surely say that the value of the variable would be stored in a register. This is because the number of registers in a CPU are limited. Also, CPU registers are meant to do a lot of important work. Thus, sometimes they may not be free. In such scenario, the variable works as if its storage class is auto.
+
