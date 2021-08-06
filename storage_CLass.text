@@ -1,0 +1,8 @@
+Which storage class should be used and when
+To improve the speed of execution of the program and to carefully use the memory space occupied by the variables, following points should be kept in mind while using storage classes:
+
+We should use static storage class only when we want the value of the variable to remain same every time we call it using different function calls.
+We should use register storage class only for those variables that are used in our program very oftenly. CPU registers are limited and thus should be used carefully.
+We should use external or global storage class only for those variables that are being used by almost all the functions in the program.
+If we do not have the purpose of any of the above mentioned storage classes, then we should use the automatic storage class.
+
