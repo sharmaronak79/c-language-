@@ -31,7 +31,7 @@ int main(){
 	printf("shortAdr	:%#x \n",packet.packetfield.shortAdr);
 	printf("addrmode	:%#x \n",packet.packetfield.addrMode);
 
-	printf("Total size of union is : %d",sizeof(packet));
+	printf(" Total size of union is : %d",sizeof(packet));
 
 	return 0;
 }
