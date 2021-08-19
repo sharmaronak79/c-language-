@@ -19,7 +19,7 @@ union Packet{
 int main(){
 
 	union Packet packet;
-	printf("Enter the vslue of PacketValue : \n");
+	printf("Enter the vslue of PacketValue : \n ");
 	scanf("%x",&packet.packetvalue);
 
 	printf("crc		:%#x \n",packet.packetfield.crc);
