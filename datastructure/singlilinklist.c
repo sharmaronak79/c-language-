@@ -1,6 +1,7 @@
 /*Single lonked lidt operation*/
 
 
+
 #include<stdio.h>
 #include<stdlib.h>
 
